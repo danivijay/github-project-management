@@ -85,7 +85,7 @@ These are default labels available,
 - `wontfix`: This will not be worked on
 
 Plus, 
-- `feature`: New feature or request (renamed `feature`)
+- `feature`: New feature or request (renamed `enhancement`)
 - `ui`: UI and styling changes
 
 ### Issues
