@@ -74,6 +74,7 @@ Read more: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-w
 - `(scope)` should be followed by `: ` (colon and space)
 - Should be in **Title Case**
 - Should add `Project`, `Labels`, `Assigned to`, and `Milestones`(if available)
+- Description should contain sufficient information and images
 
 _Eg: feat(about-us): Add About Us Page_
 
@@ -83,6 +84,7 @@ _Eg: feat(about-us): Add About Us Page_
 
 ### Branches
 
+- Always use `gitflow` plugin for vscode to create branches
 - Create a new branch for each and every feature and fixes, as instructed in `GitFlow`
 - Use **lisp-case** _Eg: `feat-about-us`_
 
@@ -95,6 +97,7 @@ _Eg: feat(about-us): Add About Us Page_
 - May contain title, body and footer
 - Title should not be greater than 72 charactors
 - Always add title and footer, body is optional
+- In footer, add `contributes` or `fixes` accordingly and followed by issue name with `#` as prefix, _Eg: `fixes #123`
 - Use imperative, present tense: "change" not "changed" nor "changes"
 
 Eg: 
@@ -114,5 +117,6 @@ fixes #123
 - Should add `Assigned to`, `Labels` and `Milestones`
 - Don't add `Projects`
 - Use imperative, present tense: "change" not "changed" nor "changes"
+- In description, add `contributes` or `fixes` accordingly and followed by issue name with `#` as prefix, _Eg: `fixes #123`
 
 _Eg: `feat(about-us): add about us page`_
