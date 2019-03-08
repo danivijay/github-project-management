@@ -1,4 +1,4 @@
-# Project Management with GitHub
+# My Project Management Conventions and Guidelines
 
 This project coveys complete guidelines to setup a development environment and project management from scratch =.
 
@@ -67,6 +67,8 @@ Read more: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-w
 - `junk`: temporary, or should be removed
 
 **Commits, Branches and Issues should use Common Prefixes**
+
+Inspired by: http://karma-runner.github.io/3.0/dev/git-commit-msg.html
 
 ### Issues
 
