@@ -1,6 +1,6 @@
 # My Project Management Conventions and Guidelines
 
-This project coveys complete guidelines to setup a development environment and project management from scratch =.
+This project coveys complete guidelines which I uses to setup my development environment and project management.
 
 ### Code editor: VSCode
 
@@ -31,7 +31,7 @@ Download: https://code.visualstudio.com/
 }
 ```
 
-Project specific configurations : https://gist.github.com/danivijay/fce3ae8d44c88fcbfbd313a86f3fa002
+_Project specific configurations : <https://gist.github.com/danivijay/fce3ae8d44c88fcbfbd313a86f3fa002>_
 
 #### Extensions:
 
@@ -52,6 +52,10 @@ Project specific configurations : https://gist.github.com/danivijay/fce3ae8d44c8
 
 ### Workflow: GitFlow
 
+- Install and use `gitflow` plugin for VSCode to create branches
+- `master` branch should be production ready
+- `feature` branch should be merged only to `develop` branch
+
 Read more: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Naming Conventions
@@ -68,7 +72,7 @@ Read more: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-w
 
 **Commits, Branches and Issues should use Common Prefixes**
 
-Inspired by: http://karma-runner.github.io/3.0/dev/git-commit-msg.html
+_Inspired by: <http://karma-runner.github.io/3.0/dev/git-commit-msg.html>_
 
 ### Issues
 
@@ -102,7 +106,7 @@ _Eg: feat(about-us): Add About Us Page_
 - In footer, add `contributes` or `fixes` accordingly and followed by issue name with `#` as prefix, _Eg: `fixes #123`
 - Use imperative, present tense: "change" not "changed" nor "changes"
 
-Eg: 
+_Eg:_
 ```
 feat(about-us): add about us design
 
