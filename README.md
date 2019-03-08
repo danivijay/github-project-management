@@ -1,6 +1,6 @@
 # My Project Management Conventions and Guidelines
 
-This project coveys complete guidelines which I uses to setup my development environment and project management.
+This project coveys complete guidelines to setup a development environment and project management from scratch.
 
 ### Code editor: VSCode
 
@@ -73,6 +73,20 @@ Read more: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-w
 **Commits, Branches and Issues should use Common Prefixes**
 
 _Inspired by: <http://karma-runner.github.io/3.0/dev/git-commit-msg.html>_
+
+### Labels
+
+These are default labels available,
+- `bug`: Something isn't working
+- `good first issue`: good for newcomers
+- `help wanted`: Extra attention is needed
+- `invalid`: This doesn't seem right
+- `question`: Further information is requested
+- `wontfix`: This will not be worked on
+
+Plus, 
+- `feature`: New feature or request (renamed `feature`)
+- `ui`: UI and styling changes
 
 ### Issues
 
