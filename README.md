@@ -70,7 +70,7 @@ Read more: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-w
 - `try`: experimental
 - `junk`: temporary, or should be removed
 
-**Commits, Branches and Issues should use Common Prefixes**
+**Commits and Pull Requests should use Common Prefixes**
 
 _Inspired by: <http://karma-runner.github.io/3.0/dev/git-commit-msg.html>_
 
@@ -90,8 +90,6 @@ Plus,
 
 ### Issues
 
-- Use prefix followed by `(<scope>)`, if available
-- `(scope)` should be followed by `: ` (colon and space)
 - Should be in **Title Case**
 - Should add `Project`, `Labels`, `Assigned to`, and `Milestones`(if available)
 - Description should contain sufficient information and images
@@ -106,7 +104,7 @@ _Eg: feat(about-us): Add About Us Page_
 
 - Always use `gitflow` plugin for vscode to create branches
 - Create a new branch for each and every feature and fixes, as instructed in `GitFlow`
-- Use **lisp-case** _Eg: `feat-about-us`_
+- Use **lisp-case** _Eg: `about-us`_
 
 ### Commits
 
