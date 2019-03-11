@@ -50,7 +50,7 @@ _Eg: feat(about-us): Add About Us Page_
 
 ### Projects
 
-- Automated Kanban with Reviews
+- Automated Kanban with Reviews (fully automated, no manual intervension needed)
 
 ### Branches
 
