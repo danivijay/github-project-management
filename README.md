@@ -2,55 +2,7 @@
 
 This project coveys complete guidelines to setup a development environment and project management from scratch.
 
-### Code editor: VSCode
-
-Download: https://code.visualstudio.com/
-
-#### Configuration:
-```
-{
-      "editor.minimap.enabled": false,
-      "prettier.tabWidth": 6,
-      "prettier.singleQuote": true,
-      "prettier.arrowParens": "always",
-      "prettier.trailingComma": "all",
-      "prettier.eslintIntegration": true,
-      "prettier.printWidth": 150,
-      "editor.formatOnSave": true,
-      "editor.renderWhitespace": "none",
-      "breadcrumbs.enabled": true,
-      "editor.formatOnSaveTimeout": 1000000,
-      "window.zoomLevel": 0,
-      "workbench.startupEditor": "newUntitledFile",
-      "workbench.sideBar.location": "right",
-      "todo-tree.defaultHighlight": {},
-      "javascript.updateImportsOnFileMove.enabled": "always",
-      "javascript.preferences.importModuleSpecifier": "non-relative",
-      "typescript.updateImportsOnFileMove.enabled": "always",
-      "typescript.preferences.importModuleSpecifier": "non-relative"
-}
-```
-
-_Project specific configurations : <https://gist.github.com/danivijay/fce3ae8d44c88fcbfbd313a86f3fa002>_
-
-#### Extensions:
-
-- Bracket Pair Colorizer
-- ES7 React/Redux/GraphQL/React-Native snippets
-- ESLint
-- Git Extension Pack
-- gitflow
-- Highlight Matching Tag
-- Live Server
-- npm intellisense
-- Path intellisense
-- Prettier - Code formatte
-- TODO Highlight
-- VS Live Share
-
-## Project Management
-
-### Workflow: GitFlow
+## Workflow: GitFlow
 
 - Install and use `gitflow` plugin for VSCode to create branches
 - `master` branch should be production ready
@@ -138,3 +90,51 @@ fixes #123
 - In description, add `contributes` or `fixes` accordingly and followed by issue name with `#` as prefix, _Eg: `fixes #123`
 
 _Eg: `feat(about-us): add about us page`_
+
+## Additional Information
+
+### Code editor: VSCode
+
+Download: https://code.visualstudio.com/
+
+#### Configuration:
+```
+{
+      "editor.minimap.enabled": false,
+      "prettier.tabWidth": 6,
+      "prettier.singleQuote": true,
+      "prettier.arrowParens": "always",
+      "prettier.trailingComma": "all",
+      "prettier.eslintIntegration": true,
+      "prettier.printWidth": 150,
+      "editor.formatOnSave": true,
+      "editor.renderWhitespace": "none",
+      "breadcrumbs.enabled": true,
+      "editor.formatOnSaveTimeout": 1000000,
+      "window.zoomLevel": 0,
+      "workbench.startupEditor": "newUntitledFile",
+      "workbench.sideBar.location": "right",
+      "todo-tree.defaultHighlight": {},
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "javascript.preferences.importModuleSpecifier": "non-relative",
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "typescript.preferences.importModuleSpecifier": "non-relative"
+}
+```
+
+_Project specific configurations : <https://gist.github.com/danivijay/fce3ae8d44c88fcbfbd313a86f3fa002>_
+
+#### Extensions:
+
+- Bracket Pair Colorizer
+- ES7 React/Redux/GraphQL/React-Native snippets
+- ESLint
+- Git Extension Pack
+- gitflow
+- Highlight Matching Tag
+- Live Server
+- npm intellisense
+- Path intellisense
+- Prettier - Code formatte
+- TODO Highlight
+- VS Live Share
