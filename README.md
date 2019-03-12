@@ -1,4 +1,4 @@
-# My Project Management Conventions and Guidelines
+# GitHub Project Management Conventions and Guidelines
 
 This project coveys complete guidelines to setup a development environment and project management from scratch.
 
